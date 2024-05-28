@@ -1,0 +1,24 @@
+Day 1
+Soal 1: Jumlah Elemen Array
+Deskripsi:
+Diberikan sebuah array nums yang berisi n bilangan bulat. Tugasmu adalah menghitung jumlah dari semua elemen di dalam array tersebut.
+
+Input: Sebuah array nums yang terdiri dari n bilangan bulat (1 ≤ n ≤ 1000).
+Output: Satu bilangan bulat yang merupakan jumlah dari semua elemen di dalam array.
+
+Example: 
+Input: [1, 2, 3, 4, 5]
+Output: 15
+
+Input: [10, -2, 3, 0, 7]
+Output: 18
+
+
+
+Soal 2: Bilangan Terbesar Kedua
+Deskripsi:
+Diberikan sebuah array nums yang berisi n bilangan bulat. Tugasmu adalah menemukan bilangan terbesar kedua dalam array tersebut. Pastikan array memiliki minimal dua elemen.
+
+Input: Sebuah array nums yang terdiri dari n bilangan bulat (2 ≤ n ≤ 1000).
+Output: Satu bilangan bulat yang merupakan bilangan terbesar kedua dalam array.
+Contoh:
