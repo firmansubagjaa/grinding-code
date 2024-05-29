@@ -6,7 +6,7 @@ Diberikan sebuah array nums yang berisi n bilangan bulat. Tugasmu adalah menghit
 Input: Sebuah array nums yang terdiri dari n bilangan bulat (1 ≤ n ≤ 1000).
 Output: Satu bilangan bulat yang merupakan jumlah dari semua elemen di dalam array.
 
-Example: 
+Exampnle: 
 Input: [1, 2, 3, 4, 5]
 Output: 15
 
