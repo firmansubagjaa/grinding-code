@@ -1,4 +1,4 @@
-const frequencyEl = (arr: number[]) => {
+export const frequencyEl = (arr: number[]): { [key: number]: number } => {
   const frequency: { [key: number]: number } = {};
   for (let num of arr) {
     frequency[num] = (frequency[num] || 0) + 1;
