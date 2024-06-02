@@ -16,10 +16,8 @@ const frequencySort = (strs: string) => {
 
   let result: string = "";
   for (let char of sortedChars) {
-    // console.log((result += char.repeat(frequency[char])));
     result += char.repeat(frequency[char]);
   }
-  // console.log(sortedChars);
   return result;
 };
 
