@@ -9,21 +9,14 @@ const path = [
   ["Lima", "Sao Paulo"],
 ];
 
-function findCity(paths: string[][]): string | void {
-  let lastCity: string | undefined = undefined;
-
-  for (let i = 0; i < paths.length && !lastCity; i++) {
-    const from = paths[i][0];
-    const to = paths[i][1];
-
-    if (from === lastCity) {
-      lastCity = to;
-    } else if (to === lastCity) {
-      lastCity = from;
-    }
+const lastCityDestination = (path: string[][]): string | void => {
+  let arr = [];
+  for (let i = 0; i < path.length; i++) {
+    for (let j = 0; j < path[i].length; j++) arr.push(path[i][j]);
   }
 
-  return lastCity || "Insert a valid path";
-}
+  arr = [...new Set(arr)];
+  return arr[arr.length - 1];
+};
 
-console.log(findCity(path));
+console.log(lastCityDestination(path));
