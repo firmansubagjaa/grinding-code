@@ -16,7 +16,6 @@ const checkBrackets = (str: string): boolean => {
       }
     }
   }
-
   return stack.length === 0;
 };
 
